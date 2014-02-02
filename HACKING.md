@@ -3,6 +3,9 @@
 2. Ask on [IRC](http://ext.freebasic.net/page/support) if there is anything you can do.
 3. Check the [Issue Tracker](https://github.com/FreeBASIC-Extended-Library/fb-ext-lib/issues), issues labelled *bite-size* should be good for beginners to the Extended Library to work on.
 
+## Compiling From Source
+Check the [current documentation.](http://ext.freebasic.net/user-guide/compiling-from-source)
+
 ## How to Contribute Code
 
 ### Step by Step

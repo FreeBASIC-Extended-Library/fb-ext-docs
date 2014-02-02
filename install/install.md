@@ -21,7 +21,7 @@ code {
 
 # Linux
 
-You will need to [compile from source](http://ext.freebasic.net/tutorial/sat-04202013-2016/compiling-source).
+You will need to [compile from source](http://ext.freebasic.net/user-guide/compiling-from-source).
 
 1.  To make a debug ready version:
 
