@@ -1,7 +1,7 @@
 ## Not sure what to do?
 1. Check the [TODO file](https://github.com/FreeBASIC-Extended-Library/fb-ext-lib/blob/master/TODO)
 2. Ask on [IRC](http://ext.freebasic.net/page/support) if there is anything you can do.
-3. Check the [Issue Tracker](https://github.com/FreeBASIC-Extended-Library/fb-ext-lib/issues), issue labelled *bite-size* should be good for beginners to the Extended Library to work on.
+3. Check the [Issue Tracker](https://github.com/FreeBASIC-Extended-Library/fb-ext-lib/issues), issues labelled *bite-size* should be good for beginners to the Extended Library to work on.
 
 ## How to Contribute Code
 
