@@ -1,21 +1,21 @@
 <h2>Basic Requirements</h2>
 <ul>
-<li>FreeBASIC Compiler version 0.24 (0.90 is not fully supported at this time)</li>
+<li>FreeBASIC Compiler version 0.24 or higher</li>
 <li>GNU Make</li>
 </ul>
 <h2>Windows:</h2>
 <p>The recommended (and only supported) build method on Windows is using the MinGW Environment that provides a unix-like shell and build tools. You can get the latest version on the <a href="http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/" target="_blank">mingw-get download page</a>. You will also need to add the FreeBASIC compiler directory to the path so you don't have to provide the complete path to fbc.exe each time. If you are unsure how to modify the path <a href="http://www.computerhope.com/issues/ch000549.htm" target="_blank">here is a great article showing how to modify the path</a> on <a href="http://www.computerhope.com/issues/ch000549.htm#0" target="_blank">Windows 7/Vista</a> and <a href="http://www.computerhope.com/issues/ch000549.htm#1" target="_blank">XP/2000</a>. Once that is complete you can open the MinGW shell from Start &gt; All Programs &gt; MinGW &gt; MinGW Shell.</p>
 <h2>Linux:</h2>
-<p>Beyond the <a href="http://www.freebasic.net/wiki/wikka.php?wakka=CompilerRequirements" target="_blank">standard compiler requirements</a>, you will also need the development headers for Freetype, libjpeg, sqlite3 and zlib.</p>
+<p>Beyond the <a href="http://www.freebasic.net/wiki/wikka.php?wakka=CompilerRequirements" target="_blank">standard compiler requirements</a>, you will also need the development headers for Freetype, libjpeg, libgif, sqlite3 and zlib.</p>
 <!-- Part two -->
-<p>To get the latest source you will be using Mercurial, the distributed version control system. Linux users can install the mercurial package. Windows users have several choices depending on how comfortable you are with Mercurial. The easiest program on Windows is <a href="http://easyhg.org/" target="_blank">EasyMercurial</a>, however if you are more comfortable you can use <a href="http://tortoisehg.bitbucket.org/" target="_blank">TortoiseHg</a> or the command-line version.</p>
+<p>To get the latest source you will be using Git, the distributed version control system. Linux users can install the git package. Windows users have several choices depending on how comfortable you are with Git. We recommend <a href="http://rogerdudler.github.io/git-guide/">this excellent git guide</a> for all users.</p>
 <p>If you are using a graphical client then the URL you want to clone is:</p>
-<pre><span>https://code.google.com/p/fb-extended-lib/</span></pre>
+<pre><span>https://github.com/FreeBASIC-Extended-Library/fb-ext-lib.git</span></pre>
 <p><span>If you are using the command line you would use the command:</span></p>
-<pre><span><span>hg clone https://code.google.com/p/fb-extended-lib/ ext</span><br></span></pre>
+<pre><span><span>git clone https://github.com/FreeBASIC-Extended-Library/fb-ext-lib.git ext</span><br></span></pre>
 <p>Once the download is complete you will have the latest source code in the ext directory (or where ever you saved it.) If you want to check for updates then you will use the pull and update commands, e.g.:</p>
-<pre>hg pull</pre>
-<pre>hg update</pre>
+<pre>git pull</pre>
+<pre>git checkout master</pre>
 <!-- Part three -->
 <p>To compile a development version, with debugging symbols included, you will just need to issue the command:</p>
 <pre>make &amp;&amp; make MT=1</pre>
