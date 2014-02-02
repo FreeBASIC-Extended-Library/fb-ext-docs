@@ -1,4 +1,6 @@
-## DOM API
+## XML DOM API
+
+* File to include: `ext/xml/dom.bi`
 
 [API Documentation for XML DOM](http://ext.freebasic.net/dev-docs/files/ext/xml/dom-bi.html)
 
@@ -17,6 +19,7 @@ are shown in this example:
 [[API]](http://ext.freebasic.net/dev-docs/files/ext/xml/dom-bi.html#node)
 For this example we will parse this XML file:
 [gist:5428664]
-<p>The Node class is also pretty simple.
+
+The Node class is also pretty simple.
 
 [gist:5428661]
