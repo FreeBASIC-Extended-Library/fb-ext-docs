@@ -1,6 +1,6 @@
-<div style="margin: 5px; border: 5px; border-color: #FF6767; background-color: #FF6767;">
-
 ## <a name="We_need_your_help!"></a>We need your help![](#We_need_your_help!)
+
+<div style="margin: 5px; border: 5px; border-color: #FF6767; background-color: #FF6767;">
 
 The FreeBASIC Extended Library is always looking for new submissions.
 Submissions do not necessarily need to be code, in fact our primary concern
@@ -34,7 +34,7 @@ Many libraries within The FreeBASIC Extended Library make use of _ext/Templates_
 a header-only library containing macros that enable generic programming similar to
 that of C++, allowing you to write more reusable code faster.
 
-Head to the [Downloads](http://ext/freebasic.net/get) area for the latest sources,
+Head to the [Downloads](http://ext.freebasic.net/get) area for the latest sources,
 pre-built binaries and documentation. Users are encouraged to join our
 [discussion forum](https://groups.google.com/forum/#!forum/freebasic-extended-library-discussion).
 
