@@ -1,6 +1,6 @@
 ## <a name="We_need_your_help!"></a>We need your help![](#We_need_your_help!)
 
-<div style="margin: 5px; border: 5px; border-color: #FF6767; background-color: #FF6767;">
+<div style="padding: 5px; border-style: dashed; border-color: #C95151; background-color: #FF6767;">
 
 The FreeBASIC Extended Library is always looking for new submissions.
 Submissions do not necessarily need to be code, in fact our primary concern
