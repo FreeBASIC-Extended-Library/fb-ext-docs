@@ -7,10 +7,16 @@ linker in the final executable file.
 
 ## Modules by Category
 
-### Data Interchange Formats
+### File I/O
+
+* [File](modules/file)
+* [ZipFile](modules/zipfile)
+
+### Data Interchange
 
 * [JSON](modules/json)
 * [XML](modules/xml)
+* [Relational Database](modules/database)
 
 ### User Interface
 
