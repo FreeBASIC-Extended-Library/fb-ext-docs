@@ -7,28 +7,22 @@ linker in the final executable file.
 
 ## Modules by Category
 
-### File I/O
-
-* [File](modules/file)
-* [ZipFile](modules/zipfile)
-
 ### Data Interchange
 
 * [JSON](modules/json)
 * [XML](modules/xml)
 * [Relational Database](modules/database)
 
-### User Interface
+### File I/O
 
-* [Application Configuration](modules/config)
-* [Commandline Options](modules/options)
-* [Input Handling](modules/input)
-* [Logging](modules/logging)
+* [File](modules/file)
+* [ZipFile](modules/zipfile)
 
 ### Graphics
 
 * [Image Loading](modules/graphics/loading)
 * [Image Manipulation](modules/graphics/manipulation)
+* [TrueType Fonts](modules/graphics/fonts)
 
 ### Program Correctness
 
@@ -41,3 +35,9 @@ linker in the final executable file.
 * [String Manipulation](modules/strings)
 * [String Replacement Class](modules/xstring)
 
+### User Interface
+
+* [Application Configuration](modules/config)
+* [Commandline Options](modules/options)
+* [Input Handling](modules/input)
+* [Logging](modules/logging)
